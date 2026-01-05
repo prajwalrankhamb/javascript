@@ -9,7 +9,7 @@
 
 // "33" => 33
 // "33abc" => NaN
-// true => 1 ; flase =>0
+// true => 1 ; false =>0
 
 let isLoggedIn = "prajwal"
 
