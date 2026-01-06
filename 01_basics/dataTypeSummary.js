@@ -34,19 +34,17 @@ const myFunction = function() {
 
 // console.log(typeof id);
 
-
-
 // type of
 // String => string
 // Number => number
 // Boolean => boolean
-// Null => object
 // Undefined => undefined
 // Symbol => symbol
 // Bigint => bigint
-// array => object
-// Object => object
 // function => function
+// Object => object
+// Null => object
+// array => object
 
 
 // **********************************************

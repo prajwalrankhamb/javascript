@@ -59,4 +59,38 @@ let str3 = str1 + str2
 let gameCounter = 100
 // gameCounter++
 ++gameCounter
-console.log(gameCounter);
+// console.log(gameCounter);
+
+
+// addition of two numbers
+// let num1 = 10
+// let num2 = 5
+// let num3 = num1 + num2
+// console.log(num3);
+
+
+//area of rectangle
+// let height = 2
+// let length = 3
+// let area = height * length
+// console.log(area);
+
+// celcius to fahrenheit conversion
+// let celsius = 20
+// let fahrenheit = (9/5) * celsius +32
+// console.log(fahrenheit);
+
+//check even or odd number
+// let num = 7
+// if (num%2 === 0) {
+//     console.log("even");   
+// }
+// else{
+//     console.log("odd");
+// }
+
+//find reminder of two number
+let num1 = 79
+let num2 = 4
+let reminder = num1 % num2
+console.log(reminder);
