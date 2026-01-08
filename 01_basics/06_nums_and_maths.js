@@ -34,12 +34,22 @@ const money = 10000000
 // console.log(Math.max(4,2,9,8,6));
 
 
-console.log(Math.random());
-console.log(Math.random()*10);
-console.log(Math.floor(Math.random()*10) + 1)
+// console.log(Math.random());
+// console.log(Math.random()*10);
+// console.log(Math.floor(Math.random()*10) + 1)
 
 
-const max = 20;
-const min = 10;
+// const max = 20;
+// const min = 10;
 
-console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+// console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+
+// const max = 6
+// const min = 1
+// console.log(Math.floor(Math.random() * (max - min + 1 ) + min));
+
+let string = "99.5"
+let StringToNumber = Number(string)
+console.log(StringToNumber);
+console.log(typeof StringToNumber);
+
