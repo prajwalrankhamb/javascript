@@ -1,4 +1,4 @@
-let myDate = new Date ()
+// let myDate = new Date ()
 
 // console.log(myDate);
 
@@ -30,8 +30,33 @@ let newDate = new Date()
 // console.log(newDate.getDay());
 
 
-console.log(
- newDate.toLocaleString('default',{
-    day: "2-digit",
-    weekday: "long"
-}));
+// console.log(
+//  newDate.toLocaleString('default',{
+//     day: "2-digit",
+//     weekday: "long"
+// }));
+
+
+// 1️⃣ Print current date & time
+// let currentDate = new Date()
+// console.log(currentDate.toLocaleString());
+
+// 2️⃣ Print only year, month, day
+// console.log(newDate.getMonth()+1)
+// console.log(newDate.getFullYear())
+// console.log(newDate.getDay())
+
+// 3️⃣ Print timestamp using Date.now()
+// let timestamp = Date.now()
+// console.log(timestamp);
+
+// 4️⃣ Create date 15 Aug 1947 and print it in readable format
+// let dateCreated = new Date('8-15-1947')
+// console.log(
+//     dateCreated.toLocaleString('default',{
+//     weekday : "long",
+//     year : "numeric",
+//     month : "long",
+//     day : "numeric"
+// }));
+
