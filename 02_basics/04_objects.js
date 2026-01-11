@@ -52,5 +52,35 @@ const users = [
 // console.log(Object.entries(tinderUser));
 
 //check 
-console.log(tinderUser.hasOwnProperty('email'));
+// console.log(tinderUser.hasOwnProperty('email'));
 
+
+//Object de-structure
+
+const course = {
+    courseName: "JS in hindi",
+    courseFees: 999,
+    courseInstructor: "Hitesh"
+}
+
+// console.log(course.courseInstructor);
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+
+console.log(instructor);
+
+//JSON API
+
+// {
+//     "name" : "prajwal",
+//     "courseName" : "JS in hindi",
+//     "free" : "free"
+// }
+
+[
+    {},
+    {},
+    {},
+]
