@@ -37,7 +37,7 @@ const user = {
 
 
 
-//********************* / arrow functions *********************
+//*********************  arrow functions *********************
 
 const chai = () => {
     username: "prajwal"
