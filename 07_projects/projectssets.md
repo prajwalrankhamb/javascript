@@ -1,7 +1,7 @@
 # Projects related to DOM
 
-## Projects Link
-[ Click here ] (https://stackblitz.com/edit/vitejs-vite-qbixi5hz?file=01_colorChanger%2Findex.html)
+## Project link
+[Click here](https://stackblitz.com/edit/stackblitz-starters-h3dxftj1?file=index.html)
 
 # Solution Code
 
@@ -31,3 +31,4 @@ buttons.forEach((button) => {
 });
 
 ```
+
