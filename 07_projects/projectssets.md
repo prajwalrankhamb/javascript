@@ -202,3 +202,28 @@ document.querySelector('#start').addEventListener('click', startColorChanging);
 document.querySelector('#stop').addEventListener('click', stopColorChanging);
 
 ```
+
+## Project 6
+
+```Javascript
+const insert = document.querySelector('#insert');
+
+window.addEventListener('keydown', function (e) {
+  insert.innerHTML = `
+    <div class='color'>
+      <table>
+        <tr>
+          <th>key</th>
+          <th>key Code</th>
+          <th>Code</th>
+        </tr>
+        <tr>
+          <td>${e.key === ' ' ? 'space' : e.key}</td>
+          <td>${e.keyCode}</td>
+          <td>${e.code}</td>
+        </tr>
+      </table>
+    </div>
+  `;
+});
+```
