@@ -167,3 +167,38 @@ function newGame() {
 }
 
 ```
+
+## Project 5
+
+```Javascript 
+//generate random color
+
+const randomColor = function () {
+  const hex = '0123456789ABCDEF';
+  let color = '#';
+  for (i = 0; i < 6; i++) {
+    color += hex[Math.floor(Math.random() * 16)];
+  }
+  return color;
+};
+
+let intervalId;
+
+const startColorChanging = function () {
+  if (!intervalId) {
+    intervalId = setInterval(function () {
+      document.body.style.backgroundColor = randomColor();
+    }, 1000);
+  }
+};
+
+const stopColorChanging = function () {
+  clearInterval(intervalId);
+  intervalId = null;
+};
+
+document.querySelector('#start').addEventListener('click', startColorChanging);
+
+document.querySelector('#stop').addEventListener('click', stopColorChanging);
+
+```
